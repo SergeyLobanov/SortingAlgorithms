@@ -10,13 +10,13 @@ public class InsertionSort {
             System.out.print(i + " ");
         }
         System.out.println();
-        sorting(array);
+        insertionSort(array);
         for (int i : array) {
             System.out.print(i + " ");
         }
     }
 
-    public static void sorting(int[] arr) {
+    public static void insertionSort(int[] arr) {
         for (int i = 1; i < arr.length - 1; i++) {
             int temp = arr[i];
             int j = i - 1;
